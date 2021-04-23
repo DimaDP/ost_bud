@@ -1,6 +1,6 @@
 import React from "react";
 import {AppBar, Button, createStyles, IconButton, makeStyles, Toolbar, Typography} from "@material-ui/core";
-import footerImg from '../../images/construction-insurance-header.jpeg'
+import footerImg from '../../images/header.jpg'
 
 const useStyles = makeStyles(() =>
     createStyles({
@@ -12,14 +12,25 @@ const useStyles = makeStyles(() =>
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
-            paddingTop: 100,
+            paddingTop: 50,
             boxSizing: 'border-box'
         },
         title: {
-            fontStyle: 'bold',
+            fontFamily: 'Jost',
+            fontSize: 40,
+            fontWeight: 800,
             color: '#e4e4e4',
             textAlign: 'center',
-            letterSpacing: 4
+            position: 'relative',
+            '&:after': {
+                content: '""',
+                width: '75px',
+                height: 9,
+                backgroundColor: 'red',
+                position: 'absolute',
+                top: '-5px',
+                left: 'calc(50% - 90px)'
+            },
         },
         nav: {
             display: 'flex',
@@ -36,12 +47,9 @@ const Header = () => {
     const classes = useStyles();
     return (
         <div className={classes.container}>
-            <Typography variant="h3" className={classes.title}>
+            <div className={classes.title}>
                 ОСТ-БУД
-            </Typography>
-            <Typography variant="h4" className={classes.title}>
-                Любимо будувати!
-            </Typography>
+            </div>
             <AppBar position="static" style={{ background: 'transparent', boxShadow: 'none'}}>
                 <div className={classes.nav}>
                     <Button color="inherit">Про нас</Button>
