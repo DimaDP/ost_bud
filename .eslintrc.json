@@ -1,0 +1,42 @@
+{
+  "plugins": ["react", "prettier", "react-hooks"],
+  "extends": [
+    "prettier",
+    "prettier/react",
+    "plugin:react/recommended",
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+        "jsx": true
+    }
+  },
+  "rules": {
+    "no-shadow": "off",
+    "no-unescaped-entities": "off",
+    "react/no-unescaped-entities": "off",
+    "no-console": ["error", {"allow": ["warn", "error"]}],
+    "no-return-assign": 0,
+    "eol-last": 0,
+    "camelcase": 0,
+    "object-curly-spacing": 0,
+    "react/prop-types": "off",
+    "max-len": [
+      "error",
+      140,
+      {
+        "ignoreUrls": true
+      }
+    ],
+    "@typescript-eslint/interface-name-prefix": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-explicit-any": "off"
+  }
+}
