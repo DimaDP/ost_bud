@@ -1,23 +1,35 @@
 {
   "files": {
     "main.css": "./static/css/main.d30480ef.chunk.css",
-    "main.js": "./static/js/main.62530220.chunk.js",
-    "main.js.map": "./static/js/main.62530220.chunk.js.map",
+    "main.js": "./static/js/main.424b4904.chunk.js",
+    "main.js.map": "./static/js/main.424b4904.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.f9d80ae5.js",
     "runtime-main.js.map": "./static/js/runtime-main.f9d80ae5.js.map",
-    "static/js/2.117d6ec4.chunk.js": "./static/js/2.117d6ec4.chunk.js",
-    "static/js/2.117d6ec4.chunk.js.map": "./static/js/2.117d6ec4.chunk.js.map",
+    "static/css/2.33264969.chunk.css": "./static/css/2.33264969.chunk.css",
+    "static/js/2.bb50affa.chunk.js": "./static/js/2.bb50affa.chunk.js",
+    "static/js/2.bb50affa.chunk.js.map": "./static/js/2.bb50affa.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.695af4ddad75a18b2db3f72c48109fc2.js": "./precache-manifest.695af4ddad75a18b2db3f72c48109fc2.js",
+    "precache-manifest.682ceec731b638310a8585c99b9ead34.js": "./precache-manifest.682ceec731b638310a8585c99b9ead34.js",
     "service-worker.js": "./service-worker.js",
+    "static/css/2.33264969.chunk.css.map": "./static/css/2.33264969.chunk.css.map",
     "static/css/main.d30480ef.chunk.css.map": "./static/css/main.d30480ef.chunk.css.map",
-    "static/js/2.117d6ec4.chunk.js.LICENSE.txt": "./static/js/2.117d6ec4.chunk.js.LICENSE.txt",
-    "static/media/header.jpg": "./static/media/header.de90c5a5.jpg"
+    "static/js/2.bb50affa.chunk.js.LICENSE.txt": "./static/js/2.bb50affa.chunk.js.LICENSE.txt",
+    "static/media/Epicentrk.svg.png": "./static/media/Epicentrk.svg.6c04f899.png",
+    "static/media/Hilti-Logo.jpg": "./static/media/Hilti-Logo.bfdbc34c.jpg",
+    "static/media/Knauf.png": "./static/media/Knauf.6466ed10.png",
+    "static/media/Ruukki-Logo.svg.png": "./static/media/Ruukki-Logo.svg.d381c0c6.png",
+    "static/media/avto_hyundai.jpg": "./static/media/avto_hyundai.4521f6ba.jpg",
+    "static/media/ceresit-logo.png": "./static/media/ceresit-logo.aec777fe.png",
+    "static/media/header.jpg": "./static/media/header.de90c5a5.jpg",
+    "static/media/mta.jpg": "./static/media/mta.48279dd3.jpg",
+    "static/media/stihl.JPG": "./static/media/stihl.8fe07a3a.JPG",
+    "static/media/unnamed.jpg": "./static/media/unnamed.e1718378.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f9d80ae5.js",
-    "static/js/2.117d6ec4.chunk.js",
+    "static/css/2.33264969.chunk.css",
+    "static/js/2.bb50affa.chunk.js",
     "static/css/main.d30480ef.chunk.css",
-    "static/js/main.62530220.chunk.js"
+    "static/js/main.424b4904.chunk.js"
   ]
 }
