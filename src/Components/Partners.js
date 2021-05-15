@@ -19,7 +19,7 @@ const useStyles = makeStyles(() =>
       flexWrap: 'wrap'
     },
     image: {
-      height: 80,
+      height: 8,
       width: 'auto',
       margin: '20px 10px 10px 10px'
     }
