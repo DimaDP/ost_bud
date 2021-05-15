@@ -21,7 +21,7 @@ const useStyles = makeStyles(() =>
     image: {
       height: 80,
       width: 'auto',
-      margin: '20px 10px 10px'
+      margin: '20px 10px 10px 10px'
     }
   })
 );
